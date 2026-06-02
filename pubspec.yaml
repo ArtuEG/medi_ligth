@@ -1,5 +1,5 @@
 name: medi_ligth
-description: "A new Flutter project."
+description: "MediLight - app de comunicación, seguridad y recursos para enfermería."
 publish_to: 'none'
 version: 0.1.0+1
 
@@ -9,6 +9,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # State management (presentation layer) - ChangeNotifier + provider
+  provider: ^6.1.2
+
+  # Tipografía Poppins sin empaquetar archivos
+  google_fonts: ^6.2.1
+
+  # Logo de marca (SVG con gradiente: corazón + pulso ECG + cruz)
+  flutter_svg: ^2.0.10+1
+
+  # Cliente HTTP para los repositorios de la capa data
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:
